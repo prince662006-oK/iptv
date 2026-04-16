@@ -1,0 +1,90 @@
+{
+  "name": "WorldTV Pro — 14,000+ Chaînes IPTV Gratuites",
+  "short_name": "WorldTV Pro",
+  "description": "Application IPTV avec plus de 14,000 chaînes gratuites du monde entier",
+  "start_url": "/iptv/index.php",
+  "display": "standalone",
+  "background_color": "#08080f",
+  "theme_color": "#e50914",
+  "orientation": "portrait-primary",
+  "lang": "fr",
+  "scope": "/iptv/",
+  "icons": [
+    {
+      "src": "icons/icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "icons/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "icons/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "categories": ["entertainment", "multimedia", "video", "tv", "streaming"],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Chaînes par pays",
+      "short_name": "Pays",
+      "description": "Parcourir les chaînes par pays",
+      "url": "/iptv/index.php?view=countries",
+      "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Catégories",
+      "short_name": "Catégories", 
+      "description": "Parcourir les chaînes par catégorie",
+      "url": "/iptv/index.php?view=categories",
+      "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Recherche",
+      "short_name": "Recherche",
+      "description": "Rechercher une chaîne",
+      "url": "/iptv/index.php?view=search",
+      "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
+    }
+  ]
+
+}
